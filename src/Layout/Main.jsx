@@ -6,9 +6,9 @@ import Navbar from "../Pages/Shared/Navbar/Navbar";
 const Main = () => {
 	return (
 		<div>
-			<Navbar></Navbar>
+			{window.location.pathname != "/login" && <Navbar></Navbar>}
 			<Outlet></Outlet>
-			<Footer></Footer>
+			{window.location.pathname != "/login" && <Footer></Footer>}
 		</div>
 	);
 };

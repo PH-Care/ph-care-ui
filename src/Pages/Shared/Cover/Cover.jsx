@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Cover = () => {
   return (
@@ -7,8 +8,8 @@ const Cover = () => {
 	<div className="hero-content text-center text-neutral-content">
 	  <div className="max-w-md">
 	    <h1 className="mb-5 text-5xl font-bold">Welcome to PH Care </h1>
-	    <p className="mb-5">Here you we care you and also  your belove Pets. You and your pets is our responsibility.</p>
-	    <button className="btn btn-primary">Get Started</button>
+	    <p className="mb-5">Here you we care you and also your beloved Pets. You and your pets is our responsibility.</p>
+	    <button className="btn btn-primary"><Link to="/login">Get Started</Link></button>
 	  </div>
 	</div>
     </div>

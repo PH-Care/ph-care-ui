@@ -4,6 +4,9 @@ import Category from "../Category/Category";
 import Featured from "../Featured/Featured";
 import PopularMenu from "../PopularMenu/PopularMenu";
 import Reviews from "../Reviews/Reviews";
+import RenownedDoctors from "../RenownedDoctors/RenownedDoctors";
+import BiweeklyTips from "../BiweeklyTips/BiweeklyTips";
+import LostAndFound from "../LostAndFound/LostAndFound";
 
 const Home = () => {
   return (
@@ -14,8 +17,11 @@ const Home = () => {
       </Helmet>
       <Banner></Banner>
       <Category></Category>
+      <BiweeklyTips></BiweeklyTips>
       <PopularMenu></PopularMenu>
       <Featured></Featured>
+      <RenownedDoctors></RenownedDoctors>
+      <LostAndFound></LostAndFound>
       <Reviews></Reviews>
 	
     </div>
